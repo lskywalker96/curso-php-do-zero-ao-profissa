@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Oxygen;
+    background-color: black;
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    border-bottom: 1px solid black;
+}
+.dir_column{
+    flex-direction: column;
+}
+.dir_row{
+    flex-direction: row;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    align-items: center;
+    width: 1080px;
+}
+.titulo_tributo{
+    font-size: 50px;
+}
+.titulo_ano_tributo{
+    font-size: 25px;
+}
+.conteudo{
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+.conteudo_imagem{
+    width: auto;
+    height: auto;
+    border: 10px double;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.conteudo_descricao{
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.timeline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.timeline_titulo{
+    font-size: 35px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.timeline .container {
+    width: 1040px;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px; 
+    border-bottom: 1px solid black;
+}
+.timeline_acontecimento{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.timeline_acontecimento img {
+    width: 150px;
+    height: 150px;
+}
+.timeline_capa_disco{
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+}
+.timeline_descricao, .timeline_ano{
+    flex: 1;
+    text-align: center;
+    font-size: 20px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer .container{
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: space-around;
+    align-items: center;
+    width: 1080px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+}
+.links a:hover{
+    color: #206a99;
+}
+/*classes de cor discografias*/
+.suddenly{background-color: #02247d; color: #d9ec5f;}
+
+.m_miller{background-color: #cad7e0;}
+
+.lie{background-color: #515f50; color: #c35e2a; text-shadow: 2px 2px 3px black;}
+
+.tales{background-color: #979893;}
+
+.m2{background-color: #79544b; color: lightcyan; text-shadow: 2px 2px 3px black;}
+
+.silver_rain{background-color: #4f4e4c; color: whitesmoke; text-shadow: 1px 1px 2px silver;}
+
+.free{background-color: #ee1003; color: whitesmoke; text-shadow: 1px 1px 2px black;}
+
+.marcus{background-color: #206a99; color: whitesmoke}
+
+.tapes{background-color: #707980; color: #f0870a; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+
+.thunder{background-color: #060807; color: blanchedalmond;}
+
+.renaissance{background-color: #5e8dab; color: #eff2fb; text-shadow: 2px 2px 2px #295258}
+
+.afrodeezia{background-color: #7b979b; color: #eceb15; text-shadow: 2px 2px 2px #636d6c;}
+
+.laid_black{background-color: #382829; color: cornsilk;}
+
+
+

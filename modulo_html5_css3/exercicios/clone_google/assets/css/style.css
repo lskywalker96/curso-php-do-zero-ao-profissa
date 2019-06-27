@@ -1,0 +1,34 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+}
+.canto_sup_dir{
+    display: flex;
+    width: auto;
+    padding: 0px 30px;
+    align-items: center;
+}
+.canto_sup_dir_links{
+    display: flex;
+    padding-right: 15px;
+}
+.canto_sup_dir_links a{
+    color: #737373;
+    text-decoration: none;
+}
+.canto_sup_dir_links a:hover{
+    color: lightslategray;
+    text-decoration: underline;
+}
+.link_gimages{
+    padding-left: 15px;
+}
+.gapps{
+    display: flex;
+}
+.accounts{
+    display: flex;
+}

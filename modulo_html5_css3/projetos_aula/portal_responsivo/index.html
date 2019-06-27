@@ -1,0 +1,241 @@
+<html>
+<head>
+    <meta id="viewport" name="viewport" content="width=device-width, user-scalable=no">
+    <title>Portal</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <div class="topo">
+        <div class="topo_container">
+            <div class="topo_left">
+                <ul>
+                    <li><a href="index.html" class="ativo">Home</a></li>
+                    <li><a href="#">Quem Somos</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Anuncie Aqui</a></li>
+                </ul>
+            </div>
+            <div class="topo_right">
+                <input type="image" src="images/lupa.png" border="0" width="26" height="26">
+                <input type="search" name="busca" placeholder="Buscar..." class="topo_busca">
+                <a href=""><img src="images/youtube.png" alt="" border="0" width="26" height="26"></a>
+                <a href=""><img src="images/twitter.png" alt="" border="0" width="26" height="26"></a>
+                <a href=""><img src="images/facebook.png" alt="" border="0" width="26" height="26"></a>
+                <a href=""><img src="images/google-plus.png" alt="" border="0" width="26" height="26"></a>
+                <a href=""><img src="images/rss.png" alt="" border="0" width="26" height="26"></a>
+            </div>
+        </div>
+    </div>
+    <div class="topo2">
+        <div class="topo2_container">
+            <div class="logo">
+                <img src="images/logo.png" alt="" border="0" width="230" height="91">
+            </div>
+            <div class="banner"></div>
+        </div>
+    </div>
+    <div class="menu">
+        <div class="menu_container">
+            <img src="images/menu-button.png" alt="menu" border="0" width="40" height="40" class="menu_mobile" onclick="toggleMenu()">
+            <ul id="menu">
+                <li><a href="#" class="ativo">Home</a></li>
+                <li><a href="#">Economia</a></li>
+                <li>
+                    <a href="#">Entretenimento</a>
+                    <img src="images/drop-down-arrow.png" alt="drop-down-arrow" width="8">
+                    <div class="submenu">
+                        <a href="#"><div class="submenu_item">Entretenimento 1</div></a>
+                        <a href="#"><div class="submenu_item">Entretenimento 2</div></a>
+                        <a href="#"><div class="submenu_item">Entretenimento 3</div></a>
+                        <a href="#"><div class="submenu_item">Entretenimento 4</div></a>
+                        <a href="#"><div class="submenu_item">Entretenimento 5</div></a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">Esportes</a>
+                    <img src="images/drop-down-arrow.png" alt="drop-down-arrow" width="8">
+                    <div class="submenu">
+                            <a href="#"><div class="submenu_item">Esportes 1</div></a>
+                            <a href="#"><div class="submenu_item">Esportes 2</div></a>
+                            <a href="#"><div class="submenu_item">Esportes 3</div></a>
+                        </div>
+                </li>
+                <li><a href="#">Geral</a></li>
+                <li>
+                    <a href="#">Notícias</a>
+                    <img src="images/drop-down-arrow.png" alt="drop-down-arrow" width="8">
+                    <div class="submenu">
+                        <a href="#"><div class="submenu_item">Notícias 1</div></a>
+                        <a href="#"><div class="submenu_item">Notícias 2</div></a>
+                        <a href="#"><div class="submenu_item">Notícias 3</div></a>
+                        <a href="#"><div class="submenu_item">Notícias 4</div></a>
+                    </div>
+                </li>
+                <li><a href="#">Polícia</a></li>
+                <li><a href="#">Vídeos</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="ultimas_noticias">
+        <div class="ultimas_noticias_container">
+            <div class="ultimas_noticias_area">
+                <div class="ultimas_noticias_tit">ÚLTIMAS NOTÍCIAS</div>
+                <div class="ultimas_noticias_noticias">As últimas notícias serão exibidas aqui...</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="container_int">
+            <div class="left_side">
+                <div class="slideshow" id="slideshow">
+                    <div class="slide_bolinhas">
+                        <div class="bolinha" onclick="mudarSlide(0)"></div>
+                        <div class="bolinha" onclick="mudarSlide(1)"></div>
+                        <div class="bolinha" onclick="mudarSlide(2)"></div>
+                        <div class="bolinha" onclick="mudarSlide(3)"></div>
+                    </div>
+                    <div class="slideshow_area">
+                        <div class="slide">
+                            <div class="slide_info">
+                                <div class="slide_info_titulo">Título 1</div>
+                                <div class="slide_info_subtitulo">Subtítulo da notícia 1</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide_info">
+                                <div class="slide_info_titulo">Título 2</div>
+                                <div class="slide_info_subtitulo">Subtítulo da notícia 2</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide_info">
+                                <div class="slide_info_titulo">Título 3</div>
+                                <div class="slide_info_subtitulo">Subtítulo da notícia 3</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide_info">
+                                <div class="slide_info_titulo">Título 4</div>
+                                <div class="slide_info_subtitulo">Subtítulo da notícia 4</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget_titulo">Notícias</div>
+                    <div class="widget_conteudo">
+                        <div class="noticia_area1">
+                            <div class="left_side_noticia_item noticia_big">
+                                <div class="noticia_img">
+                                    <img src="" alt="" border="0" width="80" height="80">
+                                </div>
+                                <div class="noticia_titulo">"Palmeiras não tem mundial!"</div>
+                                <div class="noticia_info">100.000 comentários</div>
+                            </div>
+                        </div>
+                        <div class="noticia_area2">
+                            <a href="#">
+                                <div class="left_side_noticia_item">
+                                    <div class="noticia_img">
+                                        <img src="#" alt="" border="0" width="80" height="80"/>
+                                    </div>
+                                    <div class="noticia_titulo">"Palmeiras não tem mundial!"</div>
+                                    <div class="noticia_info">100.000 comentários</div>
+                                </div>
+                            </a>
+                            <div class="left_side_noticia_item">
+                                <div class="noticia_img">
+                                    <img src="" alt="" border="0" width="80" height="80">
+                                </div>
+                                <div class="noticia_titulo">"Palmeiras não tem mundial!"</div>
+                                <div class="noticia_info">100.000 comentários</div>
+                            </div>
+                            <div class="left_side_noticia_item">
+                                <div class="noticia_img">
+                                    <img src="" alt="" border="0" width="80" height="80">
+                                </div>
+                                <div class="noticia_titulo">"Palmeiras não tem mundial!"</div>
+                                <div class="noticia_info">100.000 comentários</div>
+                            </div>
+                            <div class="left_side_noticia_item">
+                                <div class="noticia_img">
+                                    <img src="" alt="" border="0" width="80" height="80">
+                                </div>
+                                <div class="noticia_titulo">"Palmeiras não tem mundial!"</div>
+                                <div class="noticia_info">100.000 comentários</div>
+                            </div>                         
+                        </div>
+                        <div style="clear:both"></div>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget_titulo">Esportes</div>
+                    <div class="widget_conteudo">
+                        <div class="noticia_area1">
+                            <div class="left_side_noticia_item noticia_big">
+                                <div class="noticia_img">
+                                    <img src="" alt="" border="0" width="80" height="80">
+                                </div>
+                                <div class="noticia_titulo">"Palmeiras não tem mundial e 51 é pinga!", afirma Lucas Martins</div>
+                                <div class="noticia_info">100000 comentários</div>
+                            </div>
+                        </div>
+                        <div class="noticia_area2">
+                            <a href="#">
+                                <div class="left_side_noticia_item">
+                                    <div class="noticia_img">
+                                        <img src="" alt="" border="0" width="80" height="80">
+                                    </div>
+                                    <div class="noticia_titulo">"Palmeiras não tem mundial e 51 é pinga!", afirma Lucas Martins</div>
+                                    <div class="noticia_info">100000 comentários</div>
+                                </div>
+                                <div class="left_side_noticia_item">
+                                    <div class="noticia_img"><img src="" alt="" border="0" width="80" height="80"></div>
+                                    <div class="noticia_titulo">"Palmeiras não tem mundial e 51 é pinga!", afirma Lucas Martins</div>
+                                    <div class="noticia_info">100000 comentários</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div style="clear:both"></div>
+                    </div>
+                </div>               
+            </div>
+            <div class="right_side">
+                <div class="widget">
+                    <div class="widget_titulo">SOCIAL</div>
+                    <div class="widget_conteudo">
+                        <a href=""><img src="images/rss.png" alt="RSS" border="0" width="26" height="26"></a>
+                        <a href=""><img src="images/google-plus.png" alt="Google Plus" border="0" width="26" height="26"></a>
+                        <a href=""><img src="images/facebook.png" alt="Facebook" border="0" width="26" height="26"></a>
+                        <a href=""><img src="images/twitter.png" alt="Twitter" border="0" width="26" height="26"></a>
+                        <a href=""><img src="images/youtube.png" alt="You Tube" border="0" width="26" height="26"></a>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget_titulo">ÚLTIMAS NOTÍCIAS</div>
+                    <div class="widget_conteudo">
+                        <div class="right_side_noticia_item"><a href="#">Aqui tem um teaser para a primeira notícia e deve ter duas linhas...</a></div>
+                        <div class="right_side_noticia_item"><a href="#">Aqui tem um teaser para a segunda notícia e deve ter duas linhas...</a></div>
+                        <div class="right_side_noticia_item"><a href="#">Aqui tem um teaser para a terceira notícia e deve ter duas linhas...</a></div>
+                        <div class="right_side_noticia_item"><a href="#">Aqui tem um teaser para a quarta notícia e deve ter duas linhas...</a></div>
+                        <div class="right_side_noticia_item"><a href="#">Aqui tem um teaser para a quinta notícia e deve ter duas linhas...</a></div>
+                    </div>                    
+                </div>
+                <div class="widget">
+                    <div class="widget_titulo">PUBLICIDADE</div>
+                    <div class="widget_conteudo">
+                        <img src="https://www.gemwebb.com/wp-content/uploads/2018/11/ads-logo-horizontal.png" alt="Google ADS" width="275" border="0">
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget_titulo">ENCONTRE-NOS NO FACEBOOK</div>
+                    <div class="widget_conteudo">
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=275&height=200&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=395880934473257" width="275" height="200" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

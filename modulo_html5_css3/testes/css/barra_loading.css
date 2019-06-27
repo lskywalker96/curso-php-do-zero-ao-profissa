@@ -1,0 +1,42 @@
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*barra loading*/
+@keyframes barra{
+    0%{background: linear-gradient(90deg, white);}
+    10%{background: linear-gradient(90deg, black, white,white,white,white,white,white,white,white,white);}
+    20%{background: linear-gradient(90deg, black, black,white,white,white,white,white,white,white,white);}
+    30%{background: linear-gradient(90deg, black, black,black,white,white,white,white,white,white,white);}
+    40%{background: linear-gradient(90deg, black, black,black,black,white,white,white,white,white,white);}
+    50%{background: linear-gradient(90deg, black, black,black,black,black,white,white,white,white,white);}
+    60%{background: linear-gradient(90deg, black, black,black,black,black,black,white,white,white,white);}
+    70%{background: linear-gradient(90deg, black, black,black,black,black,black,black,white,white,white);}
+    80%{background: linear-gradient(90deg, black, black,black,black,black,black,black,black,white,white);}
+    90%{background: linear-gradient(90deg, black, black,black,black,black,black,black,black,black,white);}
+    100%{background-color:  black;}
+}
+
+@keyframes carregando{
+    0%{color: black;}
+    25%{color: greenyellow;}
+    50%{color: indianred;}
+    75%{color: gold;}
+    100%{color: mediumorchid;}
+}
+.barra_carregando{
+    width: 600px;
+    height: 50px;
+    border: 1px solid black;
+    margin-top: 100px;
+    background-color: white;
+    animation: barra 10s infinite;
+}
+
+.palavra span{
+    display: inline-block;
+    padding-left: 220px;
+    padding-top:20px; 
+    font-family: "Segoe UI Light", "sans-sefif";
+    font-size: 25px;
+    font-weight: 900;
+    color: black;
+    animation: carregando 10s infinite;
+}

@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>Input HTML 5</title>
+    <link rel="stylesheet" href="css/estilo.css" type="text/css">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <form method="POST">
+       <input type="search" placeholder="Pesquisar..." name="busca" autocomplete="on" autofocus/><br/>
+       <input type="email" placeholder="Email" name="email" autocomplete="on" required />
+       <input type="url" placeholder="URL" name="url" autocomplete="on" required />
+       <input type="tel" placeholder="Telefone" name="tel" autocomplete="on" maxlength="9" required />
+       <input type="number" placeholder="Número" name="num" autocomplete="on" required/>
+       <label>Range de 0 a 10:</label><input type="range" min="0" max="10" required />
+       <label>Data:</label><input type="date" required />
+       <label>Mês:</label><input type="month" required />
+       <label>Semana:</label><input type="week" required />
+       <label>Hora:</label><input type="time" required />
+       <label>Data e Hora:</label><input type="datetime-local" required />
+       <label>Cor:</label><input type="color" />
+       <input type="submit" value="Enviar" />
+    </form>
+</body>
+</html>
