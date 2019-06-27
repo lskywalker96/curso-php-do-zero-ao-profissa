@@ -1,0 +1,197 @@
+/*configurações gerais da index e demais páginas*/
+body{
+	font-family: "Segoe UI Light", "sans-sefif";
+}
+
+.geral{
+	margin: auto;
+	width: 900px;
+	height: 100%;
+	background-color: #cac7c7;
+}
+
+.topo{
+	background-color: #747088;
+	height: 125px;
+	border-bottom: 3px solid #000000;	
+}
+
+.meio{	
+	background-color: #747088;
+	position: absolute;
+	width: 900px;
+	text-align: center;
+}
+
+h1,h2{
+	text-decoration: underline;
+}
+
+/*botoes voltar*/
+.meio a{
+	text-align: center;
+	text-transform: lowercase;
+	text-decoration: none;
+	color: #000000;
+	display: inline-block;
+	width: 50px;
+	border-radius: 5px;
+	background-color: #8d8b99;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.meio a:hover{
+  	background-color: #908baa;
+  	border: 1px solid #000000;
+}
+
+/*index*/
+a{
+	text-align: center;
+	text-transform: lowercase;
+	text-decoration: none;
+	color: #000000;
+	display: inline-block;
+	width: 90%;
+	margin-bottom: 4px;
+	margin-left: 5%;
+	border-radius: 5px;
+	background-color: #8d8b99;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+a:hover{
+  background-color: #908baa;
+  border: 1px solid #000000;
+}
+
+.cont_html{
+	background-color: #747088;
+	width: 250px;
+	height: 400px;
+}
+
+.titulo{
+	display: inline-block;
+	text-align: center;
+	width: 99%;
+	font-size: 30px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+}
+
+/*página formatação*/
+.texto{
+	display: block;
+	font-size: 20px;
+	line-height: 0.3;
+	margin-bottom: 50px;
+}
+
+/*página listas ordenadas e não ordenadas*/
+.meio ul, ol{
+	list-style-position: inside;
+	text-align: left;
+}
+
+/*página hiperlinks*/
+.meio_hiperlinks{
+	height: 500px;
+	background-color: #747088;
+	position: absolute;
+	width: 900px;
+	text-align: center;
+}
+
+.meio_hiperlinks a{
+	display: inline-block;
+	margin: auto;
+	margin-bottom: 10px;
+	width: 500px;
+}
+
+/*página tabelas*/
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+th{
+	height: 40px;
+}
+
+.tab_format{
+	background-color: #6a627a;
+}
+
+/*página formularios*/
+form{
+	text-align: left;
+	margin-left: 10px;
+	width: 450px;
+	background-color: #aea8bd;
+	padding: 10px;
+}
+
+input[type=text], input[type=password]{
+	width: 100%;
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+}
+
+textarea{
+	width: 100%;
+	height: 150px;
+	resize: none;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+}
+
+label{
+	padding-left: 5px;
+}
+
+select{
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+}
+
+input[type=button], input[type=submit]{
+	width: 100%;
+	background-color: #4b445e;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	padding: 5px;
+}
+
+/*página iframe*/
+iframe{
+	width: 90%;
+	height: 500px;
+	border: 1px solid black;
+}
+
+/*página imagens*/
+img{
+	border: 3px solid black;
+	display: block;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
