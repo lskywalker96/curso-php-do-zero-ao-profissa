@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos de teclado - Módulo JavaScript Intermediário</title>
+    <style>
+        input{
+            width: 300px;
+            height: 70px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+    
+    </style>
+</head>
+<body>
+    <h3>Testando eventos do teclado</h3>
+    <input type="text" name="keyb" id="keyb" onkeydown="apertouTecla(event)" onkeypress="segurouTecla(event)">
+    <div id="logs"></div>
+    <script src="js/teclado.js"></script>
+</body>
+</html>

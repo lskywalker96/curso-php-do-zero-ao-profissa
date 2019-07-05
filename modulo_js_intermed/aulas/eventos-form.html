@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos de formulário - Módulo JavaScript Intermediário</title>
+    <script src="js/form.js"></script>
+</head>
+<body>
+    <h3>Testando eventos de formulário</h3>
+    <form action="" method="post" onsubmit="return false">
+        <input type="text" name="t" id="t" onfocus="focou()" onblur="desfocou()">
+        <select name="capitais" id="capitais" onchange="mudouOpcao(this)">
+            <option value="sp">São Paulo</option>
+            <option value="rj">Rio de Janeiro</option>
+            <option value="vitoria">Vitória</option>
+            <option value="bh">Belo Horizonte</option>
+        </select>
+        <input type="submit" value="Enviar">
+    </form>
+    <div id="logs"></div>
+</body>
+</html>
