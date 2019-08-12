@@ -1,0 +1,5 @@
+{
+    "editor.fontFamily": "'Fira Code Light','Courier New', monospace",
+    "editor.fontSize": 16,
+    "files.autoSave": "onFocusChange"
+}
