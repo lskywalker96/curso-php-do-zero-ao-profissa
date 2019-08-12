@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro - Controle de Usuários - Módulo PHP Intermediário</title>
-    <link rel="stylesheet">
 </head>
 <body>
     <?php
